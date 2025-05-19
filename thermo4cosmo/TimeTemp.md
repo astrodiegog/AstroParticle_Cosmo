@@ -12,7 +12,7 @@ $$
 We also know that the entropy density is related to the temperature of the Universe as 
 
 $$
-T = \left( \frac{45 s}{2 \pi^2 g_{\*,S}} right)^{1/3} \frac{1}{a} = \left( \frac{45 s}{2 \pi^2 g_{\*}} \right)^{1/3} \frac{1}{a}
+T = \left( \frac{45 s}{2 \pi^2 g_{\*,S}} \right)^{1/3} \frac{1}{a} = \left( \frac{45 s}{2 \pi^2 g_{\*}} \right)^{1/3} \frac{1}{a}
 $$
 
 where in the last line, we assume that the number of degrees of freedom in energy density and entropy are quite similar.
@@ -26,7 +26,7 @@ $$
 Plugging in the temperature relationship from the entropy density we find
 
 $$
-\frac{1}{a} \frac{\textrm{d}a}{\textrm{d}t}  = \left(\frac{8 \pi^3 G}{90} \right)^{1/2} g_{\*}^{1/2}(T) \left(\left( \frac{45 s}{2 \pi^2 g_{\*}(T)} right)^{1/3} \frac{1}{a} \right)^2 =  \left(\frac{8 \pi^3 G}{90} \right)^{1/2} g_{\*}^{1/2}(T) \left( \frac{45 s}{2 \pi^2 g_{\*}(T)} \right)^{2/3} a^{-2}
+\frac{1}{a} \frac{\textrm{d}a}{\textrm{d}t}  = \left(\frac{8 \pi^3 G}{90} \right)^{1/2} g_{\*}^{1/2}(T) \left(\left( \frac{45 s}{2 \pi^2 g_{\*}(T)} \right)^{1/3} \frac{1}{a} \right)^2 =  \left(\frac{8 \pi^3 G}{90} \right)^{1/2} g_{\*}^{1/2}(T) \left( \frac{45 s}{2 \pi^2 g_{\*}(T)} \right)^{2/3} a^{-2}
 $$
 
 Focusing just on the scale factor we find
@@ -50,7 +50,7 @@ $$
 Plugging into the initial entropy density and temperature relationship, we find
 
 $$
-T = \left( \frac{45 s}{2 \pi^2 g_{\*}} right)^{-1/3} \left( 2 \right)^{-1/2} \left(\frac{8 \pi^3 G}{90} \right)^{-1/4}  \left( \frac{45}{2 \pi^2} \right)^{-1/3} s^{-1/3} g_{\*}^{1/12}(T) t^{-1/2} = \left( 2 \right)^{-1/2} \left(\frac{4 \pi^3 G}{45} \right)^{-1/4} g_{\*}^{1/12 - 1/3}(T) t^{-1/2}
+T = \left( \frac{45 s}{2 \pi^2 g_{\*}} \right)^{-1/3} \left( 2 \right)^{-1/2} \left(\frac{8 \pi^3 G}{90} \right)^{-1/4}  \left( \frac{45}{2 \pi^2} \right)^{-1/3} s^{-1/3} g_{\*}^{1/12}(T) t^{-1/2} = \left( 2 \right)^{-1/2} \left(\frac{4 \pi^3 G}{45} \right)^{-1/4} g_{\*}^{1/12 - 1/3}(T) t^{-1/2}
 $$
 
 Simplifying, we find 
