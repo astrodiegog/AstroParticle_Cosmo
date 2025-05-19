@@ -9,7 +9,7 @@ The number of internal degrees of freedom for each elementary particle in the St
 | Neutrinos ($\nu_e, \nu_{\mu}, \nu_{\tau}$)  |  3  |  2  |  1  |  1  |  6  |
 | Gluons ($g$)  |  1  |  1  |  8  |  2  |  16  |
 | Photon ($\gamma$)  |  1  |  1  |  1  |  2  |  2  |
-| $W^{\pm}}$  |  1  |  2  |  1  |  3  |  6 |
+| $W^{\pm}$  |  1  |  2  |  1  |  3  |  6 |
 | $Z$  |  1  |  1  |  1  |  3  |  3 |
 | Higgs Boson ($h$)  |  1  |  1  |  1  |  1  |  1 |
 
@@ -58,7 +58,7 @@ As the Universe cools the photon temperature lower than that of the mass of a pa
 
 There are further details related to the phase space transition of electromagnetic and weak forces when the bosons $\gamma$, $W^{\pm}$, and $Z$ begin to be described as individual particles. A detailed calculation of $g_{*}(T)$ with both phase transitions requires treatment of the phase space integrals (see effectiveDoF in the bib text). 
 
-When a the photon temperature drops below the mass of a particle species, we say it has decoupled from the photon bath and no longer contributes to $g_{*}(T)$. The one complication is neutrinos because, since they are so light, they remain relativistic even after photon decoupling. Since neutrinos are chargeless particles, they interact with the rest of the thermal bath using the $W^{\pm}$ and $Z$ bosons, not with photons directly. The photon decoupling occurs when the scattering occurs at rates ($\Gamma = \n_{e,\nu} \sigma c$) much smaller than that of the Hubble expansion rate ($H$). This occurs at $T_{\nu, \textrm{dc}} \sim 3\ \textrm{MeV}$. Comparing with all of the elementary particles in the Standard Model, the only particle whose mass corresponds to a temperature cooler than $T_{\nu, \textrm{dc}}$ which should still be in the thermal bath is electrons, whose mass is $0.5\ \textrm{MeV}$. In effect, special care is taken at temperatures below $3\ \textrm{MeV}$.
+When a the photon temperature drops below the mass of a particle species, we say it has decoupled from the photon bath and no longer contributes to $g_{*}(T)$. The one complication is neutrinos because, since they are so light, they remain relativistic even after photon decoupling. Since neutrinos are chargeless particles, they interact with the rest of the thermal bath using the $W^{\pm}$ and $Z$ bosons, not with photons directly. The photon decoupling occurs when the scattering occurs at rates ($\Gamma = n_{e,\nu} \sigma c$) much smaller than that of the Hubble expansion rate ($H$). This occurs at $T_{\nu, \textrm{dc}} \sim 3\ \textrm{MeV}$. Comparing with all of the elementary particles in the Standard Model, the only particle whose mass corresponds to a temperature cooler than $T_{\nu, \textrm{dc}}$ which should still be in the thermal bath is electrons, whose mass is $0.5\ \textrm{MeV}$. In effect, special care is taken at temperatures below $3\ \textrm{MeV}$.
 
 Turning our attention to entropy, we can describe the entropy density as
 
@@ -66,13 +66,13 @@ $$
 s = \frac{S}{V} = \frac{\rho + P}{T}
 $$
 
-using the relationship between teh differential change in internal energy to the change in entropy and volume $\textrm{d}E = T\textrmd{S} - P \textrm{d}V$. Just like with energy density, we can describe a particle distribution's entropy density with different particle species as
+using the relationship between the differential change in internal energy to the change in entropy and volume $\textrm{d}E = T\textrm{S} - P \textrm{d}V$. Just like with energy density, we can describe a particle distribution's entropy density with different particle species as
 
 $$
-s = \sum_i s_i = \frac{\pi^2 g_{*,S}(T) T^3}{30}
+s = \sum_i s_i = \frac{\pi^2 g_{\*,S}(T) T^3}{30}
 $$
 
-where we now have the relativistic number of degrees of freedom in entropy g_{*,S}(T). For our case of relativistic particles, we can describe the pressure with respect to the energy density as $P = \rho / 3$, so we find
+where we now have the relativistic number of degrees of freedom in entropy $g_{\*,S}(T)$. For our case of relativistic particles, we can describe the pressure with respect to the energy density as $P = \rho / 3$, so we find
 
 $$
 s = \frac{4 \rho}{3 T} = \frac{2 \pi^2 T^3}{45} \left(\sum_{i=\textrm{bosons}} g_{i} \left(\frac{T_{i}}{T}\right)^3  + \frac{7}{8} \sum_{i=\textrm{fermions}} g_{i} \left(\frac{T_{i}}{T} \right)^3 \right)
@@ -84,10 +84,10 @@ $$
 S = sV \propto s a^3 \rightarrow s \propto a^{-3}
 $$
 
-Applying our definition of $g_{*,S}$, we find that the relationship between temperature, number of degrees of freedom in entropy, and entropy density as
+Applying our definition of $g_{\*,S}$, we find that the relationship between temperature, number of degrees of freedom in entropy, and entropy density as
 
 $$
-g_{*,S} T^3 \propto a^{-3} \rightarrow T \propto (a g^{1/3}_{*,S})^{-1}
+g_{\*,S} T^3 \propto a^{-3} \rightarrow T \propto (a g^{1/3}_{\*,S})^{-1}
 $$
 
 When the Universe cools to temperatures below that of a particle species, the massive particle is then destroyed more often than it is created. The effect is their abundance being reduced while their energy is transferred into lighter particle species that is in the thermal bath, which is described as "entropy dump".
@@ -95,7 +95,7 @@ When the Universe cools to temperatures below that of a particle species, the ma
 Applying this concept to neutrinos, we can find the evolution of the temperature of neutrinos after they decoupled from the thermal bath
 
 $$
-T_{\nu} a (g_{*,S}^{nu}(T_{\nu}) )^{1/3} = T_{\nu, \textrm{dc}} a (g_{*,S}^{\nu}(T_{\nu, \textrm{dc}}) )^{1/3}
+T_{\nu} a (g_{\*,S}^{nu}(T_{\nu}) )^{1/3} = T_{\nu, \textrm{dc}} a (g_{\*,S}^{\nu}(T_{\nu, \textrm{dc}}) )^{1/3}
 $$
 
 We can describe the photon temperature in the same manner. The ratio of the temperature of neutrinos to photons is then 
