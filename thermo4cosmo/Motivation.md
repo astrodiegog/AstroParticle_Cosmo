@@ -101,7 +101,7 @@ $$
 We can describe the photon temperature in the same manner. The ratio of the temperature of neutrinos to photons is then 
 
 $$
-\frac{T_{\nu}}{T} = \left( \frac{(g_{*,S}^{\gamma}(T)}{(g_{*,S}^{gamma}(T_{\nu, \textrm{dc}})} \right)^{1/3}
+\frac{T_{\nu}}{T} = \left( \frac{(g_{\*,S}^{\gamma}(T)}{(g_{\*,S}^{gamma}(T_{\nu, \textrm{dc}})} \right)^{1/3}
 $$
 
 We find that the temperature ratio of neutrinos to photons after electrons decoupling (electron-positron annihilation) ($T \ll m_{e}$)
@@ -110,10 +110,10 @@ $$
 \frac{T_{\nu}}{T} = \left(\frac{4}{11} \right)^{1/3}
 $$
 
-When describing the two functions of temperature $g_{*}(T)$ and $g_{*,S}$, we follow the general equation for kinetic equilibrium
+When describing the two functions of temperature $g_{\*}(T)$ and $g_{\*,S}$, we follow the general equation for kinetic equilibrium
 
 $$
-g_{*}(T) = g_{*,S}(T) = \left(\sum_{i=\textrm{bosons}} g_{i}  + \frac{7}{8} \sum_{i=\textrm{fermions}} g_{i}  \right)
+g_{\*}(T) = g_{\*,S}(T) = \left(\sum_{i=\textrm{bosons}} g_{i}  + \frac{7}{8} \sum_{i=\textrm{fermions}} g_{i}  \right)
 $$
 
 
